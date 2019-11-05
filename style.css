@@ -1,0 +1,126 @@
+/*
+Theme Name: Assignment2 trr
+Theme URI:
+Author: Briana Bazail
+Description: This is a tutorial theme for the Web Interactivity & Engagement course at the University of Florida
+Version: 1.0
+License: Open
+Text Domain: Assignment2
+*/
+
+/* UNIVERSAL STYLING */
+
+.bold {
+  font-weight: bold;
+}
+
+body {
+  background: #FDF2E9
+}
+
+.container {
+  background: white;
+}
+
+
+/* HEADER */
+
+header {
+  background: #EDBB99;
+}
+
+header .container {
+  background: transparent;
+}
+
+header img {
+  max-width: 150px;
+  object-fit: contain;
+}
+
+.top-menu-class li {
+  display: inline;
+}
+
+.top-menu-class a {
+  color: #CD6155;
+  margin: 0 1rem;
+}
+
+.widget-header label {
+  display: none;
+}
+
+/*INDEX.PHP TEMPLATE*/
+
+.post-featured-image img {
+  max-width: 225px;
+  object-fit: cover;
+}
+
+/*HOME PAGE STYLING*/
+
+.widget-hero-image img {
+  width: 100%;
+}
+
+.about-us-widget-title {
+  text-transform: uppercase;
+}
+
+.widget-about-us {
+  margin: 40px 20px;
+}
+
+.widget-bottom-left img,
+.widget-bottom-middle img {
+  min-width: 300px;
+  min-height: 200px;
+  object-fit: cover;
+}
+
+.widget-bottom-right #wp-calendar {
+  width: 100%;
+}
+
+.widget-bottom-right #wp-calendar th[scope="col"] {
+  background: #F2F2;
+  text-align: center;
+}
+
+.widget-bottom-right #wp-calendar td {
+  text-align: center;
+}
+
+/*SINGLE PAGE/POST STYLING*/
+
+.entry-title {
+  margin: 20px 0 10px;
+}
+
+/*ASIDE STYLING*/
+
+aside {
+  background: #D98880;
+}
+
+aside .widget-left-sidebar,
+aside .widget-right-sidebar {
+  margin: 20px 0;
+}
+
+
+/*FOOTER STYLING*/
+
+footer {
+  background: #EDBB99;
+  padding: 35px 0;
+}
+
+footer .container {
+  background: transparent;
+}
+
+footer nav .menu a {
+  color: #CD6155;
+}
